@@ -3,6 +3,10 @@ Service provider for generating fake images that can replace the standard provid
 
 ### Installation
 
+```
+composer require tmoiseenko/loremflickr
+```
+
 ### Usage
 add to your AppServiceProvider.php
 ```php
