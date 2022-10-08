@@ -1,0 +1,22 @@
+{
+    "name": "tmoiseenko/loremflickr",
+    "description": "Service provider for generating fake images that can replace the standard provider. Based on https://loremflickr.com/",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Tmoiseenko\\Loremflickr\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Timur Moiseenko",
+            "email": "angrav6@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.1 || ^8.0",
+        "laravel/framework": "^8.40"
+    }
+}
